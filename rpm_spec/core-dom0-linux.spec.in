@@ -282,8 +282,6 @@ chmod -x /etc/grub.d/10_linux
 /usr/lib/qubes/qubes-rpc/qubes.repos.*
 # Dracut module
 /usr/lib/dracut/dracut.conf.d/*
-%dir %{_dracutmoddir}/90macbook12-spi-driver
-%{_dracutmoddir}/90macbook12-spi-driver/*
 %dir %{_dracutmoddir}/90qubes-pciback
 %{_dracutmoddir}/90qubes-pciback/*
 %dir %{_dracutmoddir}/90extra-modules
